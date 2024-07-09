@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pickle
 
-emotion = pickle.load(open('model.pkl','rb'))
+emotion = pickle.load(open('svc.pkl','rb'))
 
 # emotion = pipeline("sentiment-analysis", model="arpanghoshal/EmoRoBERTa") 
 # Use the pipeline
